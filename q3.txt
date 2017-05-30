@@ -1,0 +1,29 @@
+The following test scenarios is for the login page https://demo.logpoint.com :
+
+1. User Interface
+	a. when the page loads the cursor or pointer must be focused properly visibly inside login box.
+	b. The enter key in keyboard must do the same function as login button for the page.
+	c. The text field for username and password must be in order.
+	d. The interface must be according to design specification.
+	e. While clicking on other Authentication option, these other options must appear.
+	f. This login page must work responsively on different devices such tablets and mobile screens.
+	
+2. Functionality
+	a. The login form must work successfully.
+	b. The logout link must redirect to this login form once the user logouts.
+	c. The login page must work in the same way for different browsers.
+	d. The errors that occurs must be handled accordingly.
+	e. The forgot password button must redirect to appropriate password recovery page.
+	
+3. Security
+	a. The password typed into the password field must be masked with asterisks (****).
+	b. The masked characters should not be allowed to copied.
+	c. There must be appropriate limit to username and password field.
+	d. when the source is login page source is viewed, it must not show any security information.
+	e. The login form must be resistant to SQL injection.
+	f. The URL manipulation must not allow to view registered user page.
+	g. Multiple login with different account from same IP address at the same time must not be allowed.
+	h. The cookies must be allowed when the users logins.
+	i. The username and password must be verified and validated appropriate from database whithout any leak in information. 	
+	
+ 
