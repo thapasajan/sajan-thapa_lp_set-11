@@ -1,0 +1,72 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class Divide_integers{
+     public static void main(String []args){
+        System.out.println("Dividing two integers without using division or multiplication");
+        String digit =new String(); 
+        boolean negative=false;
+        Integer x, y, z=0, q=0, remainder=0, added_value=0;
+        Scanner input_value = new Scanner(System.in);  // Reading from System.in
+        System.out.println("Enter a Divident: ");
+        x = input_value.nextInt();
+        System.out.println("Enter a Divisor: ");
+        y = input_value.nextInt();
+        System.out.println("dividend=   "+ x);
+        System.out.println("divisor =   " +y);
+        if ((x <0) && (y<0)){
+            negative=false;
+        }
+        else if (x <0){
+            negative=true;
+            x=-x;
+        }    
+        else if ( y<0){
+            negative=true;
+            y=-y;
+        }
+        
+        
+        
+        digit= x.toString();
+        z=digit.length();
+        int[] quotient = new int[digit.length()];
+        int[] num = new int[digit.length()];
+        for (int i = 0; i < digit.length(); i++){
+            num[i] = digit.charAt(i) - '0';
+            }
+        
+		fQuotient firstquot= new fQuotient(x, y);
+        
+        for (int i = 0; i < digit.length(); i++) {
+            switch (i) {
+                case 0 :
+                    q = firstquot.calNormalQuot(num[i]);
+                    break;
+                default :
+                    added_value=(remainder*10)+num[i];
+                    q = firstquot.calNormalQuot(added_value);
+            }
+            quotient[i]=q; 
+		    remainder= firstquot.returnRemain();
+		    //
+		    
+            
+        }
+    if (negative==true) {    
+        System.out.print("quotient=   -");
+        }
+    else {
+        System.out.print("quotient=   ");
+    }
+        
+    for(int i : quotient)
+    {
+    System.out.print(i);
+    }        
+    System.out.println("\nremainder=  " + remainder);         
+            
+        
+        
+     }
+}

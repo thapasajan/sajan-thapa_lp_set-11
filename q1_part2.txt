@@ -1,0 +1,24 @@
+//this is part2 of question 1 where two integers are divided only using Multiplication or division.
+//Here, this class is used to return the quotient and remainder to main program.
+public class fQuotient{
+         int value, divisor, count=0;
+         static int remainder=0;
+         public fQuotient( int value1, int divisor1){
+             value=value1;
+             divisor=divisor1;
+         }
+         public int calNormalQuot(int value1){
+             value=value1;
+             count=0;
+             while (value >= divisor){
+                 value=value-divisor;
+                 count= count+1;
+                 
+             }
+             remainder=value;
+             return count;
+         }
+         public int returnRemain(){
+             return remainder;
+         }
+}
