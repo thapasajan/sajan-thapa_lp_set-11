@@ -1,0 +1,38 @@
+As a Project Manager for the development of mobile application for client who is a creating a startup 
+in custom designed t-shirt company, I would use agile development mode to satisfy his application needs.
+Among agile model, we will use Rapid Application Development(RAD) methodology.
+
+Using Rapid application development methodologies we will used different phases to develop application:
+1. Requirements and planning:
+	a. Here we will use find requirement that are needed to imagine how the software we are building looks like.
+	b. User requirements, System requirements (both functional and non-functional requirements) are identified and gathered here.
+	c. We then estimate the budget required for creating this application using appropriate estimation model.
+	d. We also find different constraints and scope of application in early phase.
+	e. we develop SRS(software requirement specification documents) which we will refer throughout out application development.
+	f. active participation of client during requirement phase is done.
+
+2.	User Design phase:
+	a. Here we interact with users to develop different models and create prototype application for custom designed t-shirt company.  
+	b. we use case tools to identify features to translate this user needs.
+	c. Since RAD is an iterative process we continuously modify the design and create model that both user and developer agree on.
+	d. for android application we include different elements in design model such as features, modules, classes and methods according to
+	   user needs.
+	e. Here outline of application is done such as the main interface and different tabs according for correct viewing  and working.
+
+3.	Rapid construction:
+	a. we complete the detail design of the system we proposed here.
+	b. Actual program is done here in the suitable environment using our chosen programming languages.
+		for android application, we use Android studio, SDK and JAVA languages for construction.
+	c. Since we are following RAD, we introduce models and features that are important and identified first as a modules
+		and create a working prototype.
+	d. Here we verify the system and test with with both ideal and real world datas.
+	e. The data flow and the interfaces between all the components will be thoroughly tested with complete test coverage.
+	f. The testing is also done using emulators. 
+	
+4.	Transition
+	a. After the full scale testing we prepare the application for transition.
+		such as making the application available in application store for respective platforms.
+	b. Different guides is made for ease use of application and user training to navigate the application	.
+	c. At we are using RAD, we again follow previous phases of design and construction to include new features 
+		as well as modify and debug the present one.
+	d. Throughout the working period of application we provide software maintenance.	
