@@ -1,0 +1,6 @@
+﻿SELECT TOP 5 [uid]
+      ,[uFirstName]
+      ,[uLastName]
+      ,[Uaddress]
+      ,[zipcode]
+  FROM [testingDatabase].[dbo].[user_data]
